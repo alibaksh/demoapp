@@ -7,6 +7,17 @@ Clone this repository and import into **Android Studio**
 ```bash
 git clone git@github.com:wolox/<reponame>.git
 ```
+
+## Report
+To generate the test report execute the following command,
+```bash
+./gradlew createDebugCoverageReport
+```
+OR
+```bash
+./gradlew testDebugUnitTest
+```
+
 ## Contributing
 
 1. Fork it
